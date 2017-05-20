@@ -9,10 +9,11 @@ from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import parseaddr, formataddr
 import os
-from zhihu import config
+import config
 import smtplib
 import lxml.html
 from pymongo import MongoClient
+import traceback
 
 import logging
 
@@ -38,7 +39,7 @@ class ListenZhihu():
             item['_id'] = item['id']
             self.db.activities.insert_one(item)
         except:
-            pass
+            print(traceback.print_exc())
 
     def listen_activities(self, url='https://www.zhihu.com/people/wei-jing-ji-44/activities'):
         headers = {'user-agent': FF_USER_AGENT}
@@ -93,7 +94,7 @@ class ListenZhihu():
         smtp_server = config.EMAIL_SERVER
 
         created_time = time.strftime('%m-%d %H:%M', time.localtime(item['created_time']))
-        with open('%s/remind.html' % os.getcwd()) as f:
+        with open('%s/remind.html' %  os.path.split(os.path.realpath(__file__))[0]) as f:
             template = Template(f.read())
             send_data = template.render(item=item, created_time=created_time)
 
