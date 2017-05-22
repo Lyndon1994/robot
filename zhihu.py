@@ -3,19 +3,20 @@
 # 订阅某知乎用户动态更新，发送邮件提醒
 
 import json
-from jinja2 import Template
-import time, requests
-from email.header import Header
-from email.mime.text import MIMEText
-from email.utils import parseaddr, formataddr
-import os
-import config
-import smtplib
-import lxml.html
-from pymongo import MongoClient
-import traceback
-
 import logging
+import os
+import requests
+import time
+import traceback
+import db
+import sqlite3
+
+import email_api
+import lxml.html
+from jinja2 import Template
+from pymongo import MongoClient
+
+import config
 
 FORMAT = '%(asctime)-15s %(levelname)s:%(module)s:%(message)s'
 logging.basicConfig(level=logging.INFO, format=FORMAT)
@@ -30,6 +31,11 @@ class ListenZhihu():
             config.MONGO_USER, config.MONGO_PASSWORD, config.MONGO_HOST)) if client is None else client
         self.db = self.client.zhihu
 
+    def __call__(self):
+        tokens = self.get_tokens()
+        for token in tokens:
+            self.listen_activities(token)
+
     def get_activity(self, activity_id):
         return self.db.activities.find_one({'_id': activity_id})
 
@@ -41,7 +47,9 @@ class ListenZhihu():
         except:
             print(traceback.print_exc())
 
-    def listen_activities(self, url='https://www.zhihu.com/people/wei-jing-ji-44/activities'):
+    def listen_activities(self, token):
+        logging.info('开始抓取%s的知乎动态...'%token)
+        url = 'https://www.zhihu.com/people/%s/activities' % token
         headers = {'user-agent': FF_USER_AGENT}
         r = requests.get(url, headers=headers)
         tree = lxml.html.fromstring(r.content)
@@ -55,9 +63,11 @@ class ListenZhihu():
                     logging.info('读取到一条新动态...')
                     item = {}
                     item['id'] = activity_id
+                    item['type'] = 'activities'
                     item['action_text'] = activity_data['actionText']
                     item['created_time'] = activity_data['createdTime']
                     item['actor_name'] = activity_data['actor']['name']
+                    item['actor_token'] = activity_data['actor']['urlToken']
                     item['actor_url'] = 'https://www.zhihu.com/people/%s/activities' % activity_data['actor'][
                         'urlToken']
                     target_id = activity_data['target']['id']
@@ -84,32 +94,24 @@ class ListenZhihu():
             logging.debug('没有获取到数据...')
 
     def send_email(self, item):
-        def _format_addr(s):
-            name, addr = parseaddr(s)
-            return formataddr((Header(name, 'utf-8').encode(), addr))
-
-        from_addr = config.EMAIL_FROM
-        password = config.EMAIL_PASSWORD
-        to_addr = config.EMAIL_TO
-        smtp_server = config.EMAIL_SERVER
-
         created_time = time.strftime('%m-%d %H:%M', time.localtime(item['created_time']))
-        with open('%s/remind.html' %  os.path.split(os.path.realpath(__file__))[0]) as f:
+        with open('%s/view/zhihu_remind.html' % os.path.split(os.path.realpath(__file__))[0]) as f:
             template = Template(f.read())
             send_data = template.render(item=item, created_time=created_time)
+        users = self.get_users(item['actor_token'], item['type'])
+        header = '%s有了新动态' % item['actor_name']
+        for user in users:
+            email_api.send_email(user=user, header=header, text=send_data, subtype='html')
 
-        msg = MIMEText(send_data, 'html', 'utf-8')
-        msg['From'] = _format_addr('%s <%s>' % (config.EMAIL_FROM_NAME, from_addr))
-        msg['To'] = _format_addr('%s <%s>' % (config.EMAIL_TO_NAME, to_addr))
-        msg['Subject'] = Header('%s有了新动态' % item['actor_name'], 'utf-8').encode()
+    def get_users(self, token, type):
+        db.cursor.execute(
+            'SELECT username,email FROM users u JOIN zhihu_rss z ON z.userid=u.id WHERE z.follower_token=? AND z.type=?',
+            (token, type))
+        values = db.cursor.fetchall()
+        return values
 
-        server = smtplib.SMTP(smtp_server, 25)
-        server.starttls()
-        server.login(from_addr, password)
-        server.sendmail(from_addr, [to_addr], msg.as_string())
-        server.quit()
-        logging.info('邮件发送成功...')
+    def get_tokens(self):
+        db.cursor.execute('SELECT DISTINCT follower_token FROM zhihu_rss')
+        values = db.cursor.fetchall()
+        return values
 
-
-if __name__ == '__main__':
-    ListenZhihu().listen_activities()
