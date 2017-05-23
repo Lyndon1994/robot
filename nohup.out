@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "remind.py", line 2, in <module>
+    import schedule,time,logging
+ImportError: No module named 'schedule'
+Traceback (most recent call last):
+  File "/root/robot/remind.py", line 2, in <module>
+    import schedule,time,logging
+ImportError: No module named 'schedule'
