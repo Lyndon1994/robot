@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ item['actor_name'] }}有新动态</title>
+</head>
+<body>
+<style>
+    body {
+        line-height: 1.7;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+<div class="header" style="color: #999;"><a href="{{item['actor_url']}}" style="color: #999;">{{item['actor_name']}}</a>
+    {{item['action_text']}} <span style="float: right;">{{created_time}}</span>
+</div>
+<div class="content">
+    <span class="title"><a href="{{item['url']}}" style="color: #259">{{item['title']}}</a></span>
+    {% if item.get('author')%}
+    <div class="author">
+        <a href="{{ 'https://www.zhihu.com/people/%s'%item['author']['urlToken'] }}" style="color: #222;">{{item['author']['name']}}</a>
+        <span style="color: #999;">{{item['author']['headline']}}</span>
+    </div>
+    {% endif %}
+    {% if item.get('voteupCount')%}
+    <span class="like" style="color: #999;">{{item.get('voteupCount','')}}人赞同了该回答</span>
+    {% endif %}
+    <div style="margin-top: 10px">{{item.get('content','')}}</div>
+</div>
+</body>
+</html>

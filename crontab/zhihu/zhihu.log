@@ -1,0 +1,14 @@
+2017-05-19 11:33:05,719 DEBUG:connectionpool:Starting new HTTPS connection (1): www.zhihu.com
+2017-05-19 11:33:06,225 DEBUG:connectionpool:https://www.zhihu.com:443 "GET /people/wei-jing-ji-44/activities HTTP/1.1" 200 None
+2017-05-19 11:34:22,078 DEBUG:connectionpool:Starting new HTTPS connection (1): www.zhihu.com
+2017-05-19 11:34:22,609 DEBUG:connectionpool:https://www.zhihu.com:443 "GET /people/wei-jing-ji-44/activities HTTP/1.1" 200 None
+2017-05-19 11:41:40,951 DEBUG:connectionpool:Starting new HTTPS connection (1): www.zhihu.com
+2017-05-19 11:41:41,487 DEBUG:connectionpool:https://www.zhihu.com:443 "GET /people/wei-jing-ji-44/activities HTTP/1.1" 200 None
+2017-05-19 11:41:41,598 INFO:listen:读取到一条新动态...
+2017-05-19 11:41:43,353 INFO:listen:邮件发送成功...
+2017-05-19 11:41:43,353 INFO:listen:读取到一条新动态...
+2017-05-19 11:41:44,343 INFO:listen:邮件发送成功...
+2017-05-19 16:27:46,209 DEBUG:connectionpool:Starting new HTTPS connection (1): www.zhihu.com
+2017-05-19 16:27:46,751 DEBUG:connectionpool:https://www.zhihu.com:443 "GET /people/wei-jing-ji-44/activities HTTP/1.1" 200 None
+2017-05-19 16:29:05,463 DEBUG:connectionpool:Starting new HTTPS connection (1): www.zhihu.com
+2017-05-19 16:29:05,847 DEBUG:connectionpool:https://www.zhihu.com:443 "GET /people/wei-jing-ji-44/activities HTTP/1.1" 200 None

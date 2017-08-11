@@ -1,0 +1,791 @@
+//知乎用户动态API
+{
+  "loading": {
+    "global": {
+      "count": 0
+    },
+    "local": {
+      "token/": false,
+      "settings/getExperiments/": false,
+      "people/get/": false,
+      "people/getActivities/wei-jing-ji-44": false
+    }
+  },
+  "entities": {
+    "users": {
+      "知乎用户": {
+        "isFollowed": false,
+        "educations": [],
+        "followingCount": 29,
+        "voteFromCount": 0,
+        "userType": "people",
+        "showSinaWeibo": false,
+        "pinsCount": 0,
+        "isFollowing": false,
+        "markedAnswersText": "",
+        "accountStatus": [],
+        "isForceRenamed": false,
+        "id": "75b9caf5341897f44623ed251a2e7e51",
+        "favoriteCount": 0,
+        "voteupCount": 27,
+        "commercialQuestionCount": 0,
+        "isBlocking": false,
+        "followingColumnsCount": 9,
+        "headline": "",
+        "urlToken": "",
+        "participatedLiveCount": 0,
+        "followingFavlistsCount": 1,
+        "isAdvertiser": false,
+        "isBindSina": false,
+        "favoritedCount": 9,
+        "isOrg": false,
+        "followerCount": 11,
+        "employments": [],
+        "markedAnswersCount": 0,
+        "avatarHue": "0xac9a85",
+        "avatarUrlTemplate": "https://pic1.zhimg.com/da8e974dc_{size}.jpg",
+        "followingTopicCount": 41,
+        "description": "考研狗",
+        "business": {
+          "introduction": "互联网（英语：Internet），是网络与网络之间所串连成的庞大网络，这些网络以一组标准的网络TCP/IP协议族相连，链接全世界几十亿个设备，形成逻辑上的单一巨大国际网络。这是一个网络的网络，它是由从地方到全球范围内几百万个私人的，学术界的，企业的和政府的网络所构成，通过电子，无线和光纤网络技术等等一系列广泛的技术联系在一起.这种将计算机网络互相联接在一起的方法可称作“网络互联”，在这基础上发展出覆盖全世界的全球性互联网络称互联网，即是互相连接一起的网络。",
+          "avatarUrl": "https://pic4.zhimg.com/f07808da5625fef3607f8b75b770349f_is.jpg",
+          "name": "互联网",
+          "url": "http://www.zhihu.com/api/v4/topics/19550517",
+          "type": "topic",
+          "excerpt": "互联网（英语：Internet），是网络与网络之间所串连成的庞大网络，这些网络以一组标准的网络TCP/IP协议族相连，链接全世界几十亿个设备，形成逻辑上的单一巨大国际网络。这是一个网络的网络，它是由从地方到全球范围内几百万个私人的，学术界的，企业的和政府的网络所构成，通过电子，无线和光纤网络技术等等一系列广泛的技术联系在一起.这种将计算机网络互相联接在一起的方法可称作“网络互联”，在这基础上发展出覆盖全世界的…",
+          "id": "19550517"
+        },
+        "avatarUrl": "https://pic1.zhimg.com/da8e974dc_is.jpg",
+        "columnsCount": 0,
+        "hostedLiveCount": 0,
+        "isActive": 1,
+        "thankToCount": 0,
+        "mutualFolloweesCount": 0,
+        "badge": [],
+        "coverUrl": "",
+        "thankFromCount": 0,
+        "voteToCount": 0,
+        "isBlocked": false,
+        "answerCount": 26,
+        "allowMessage": false,
+        "articlesCount": 0,
+        "name": "知乎用户",
+        "questionCount": 14,
+        "locations": [],
+        "type": "people",
+        "url": "http://www.zhihu.com/api/v4/people/0",
+        "messageThreadToken": "4807754300",
+        "logsCount": 108,
+        "followingQuestionCount": 1105,
+        "thankedCount": 2,
+        "gender": 0
+      }
+    },
+    "questions": {
+      "37093377": {
+        "author": {
+          "headline": "",
+          "avatarUrl": "https://pic2.zhimg.com/aadd7b895_s.jpg",
+          "name": "匿名用户",
+          "url": "",
+          "urlToken": "",
+          "type": "people",
+          "userType": "people",
+          "id": "0"
+        },
+        "created": 1446395281,
+        "url": "https://api.zhihu.com/questions/37093377",
+        "title": "穷养的女孩和富养的女孩的区别在哪？",
+        "answerCount": 3197,
+        "boundTopicIds": [
+          307,
+          404,
+          3803,
+          4719,
+          14216
+        ],
+        "commentCount": 197,
+        "isFollowing": false,
+        "followerCount": 34924,
+        "type": "question",
+        "id": 37093377
+      }
+    },
+    "answers": {
+      "17110037": {
+        "relationship": {
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false,
+          "upvotedFolloweeIds": []
+        },
+        "markInfos": [],
+        "excerpt": "我们在这个月收获了上天的礼物——八斤半大胖小子一个，谢谢所有人的赞同，希望能继续给长期异地的情侣一些希望。 ——— 异地恋不分手的原因是爱的是对方，不是谈恋爱的感觉。 竟然有这么多赞同了，谢谢大家！ 明天就要正式结束异地，正式生活在一起了，回头看…",
+        "type": "answer",
+        "createdTime": 1368927845,
+        "previewType": "expand",
+        "id": 17110037,
+        "isCopyable": false,
+        "author": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "范昕",
+          "url": "https://api.zhihu.com/people/8f0ab2f138abb28ea3a252d53a0f4c78",
+          "urlToken": "man-man-man-man-man",
+          "userType": "people",
+          "headline": "",
+          "avatarUrl": "https://pic4.zhimg.com/50/daf15a4d7_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 0,
+          "type": "people",
+          "id": "8f0ab2f138abb28ea3a252d53a0f4c78"
+        },
+        "url": "https://api.zhihu.com/answers/17110037",
+        "commentPermission": "all",
+        "question": {
+          "author": {
+            "headline": "",
+            "avatarUrl": "https://pic2.zhimg.com/aadd7b895_s.jpg",
+            "name": "匿名用户",
+            "url": "",
+            "urlToken": "",
+            "type": "people",
+            "userType": "people",
+            "id": "0"
+          },
+          "created": 1368784034,
+          "url": "https://api.zhihu.com/questions/21073602",
+          "title": "异地恋是如何修成正果的？",
+          "answerCount": 921,
+          "boundTopicIds": [
+            924,
+            960,
+            4729,
+            9399,
+            10958
+          ],
+          "commentCount": 38,
+          "isFollowing": false,
+          "followerCount": 21998,
+          "type": "question",
+          "id": 21073602
+        },
+        "updatedTime": 1448615315,
+        "content": "我们在这个月收获了上天的礼物——八斤半大胖小子一个，谢谢所有人的赞同，希望能继续给长期异地的情侣一些希望。<br>————————<br><br><br>异地恋不分手的原因是爱的是对方，不是谈恋爱的感觉。<br><br>竟然有这么多赞同了，谢谢大家！<br><br>明天就要正式结束异地，正式生活在一起了，回头看九年来的风风雨雨，虽然绝大部分时间我们相隔千里，但对彼此的信赖让我们从未感觉孤单。<br><br>其实答案这句话是他说的，我觉得确实能代表我们相爱至今的原因，当我每一次问自己，我爱的究竟是什么？得到的答案永远不是外在的一切，甚至不是他的爱和陪伴，永远是他纯然的心灵。",
+        "commentCount": 86,
+        "reshipmentSettings": "allowed",
+        "thanksCount": 369,
+        "excerptNew": "我们在这个月收获了上天的礼物——八斤半大胖小子一个，谢谢所有人的赞同，希望能继续给长期异地的情侣一些希望。 ——— 异地恋不分手的原因是爱的是对方，不是谈恋爱的感觉。 竟然有这么多赞同了，谢谢大家！ 明天就要正式结束异地，正式生活在一起了，回头看…",
+        "previewText": "我们在这个月收获了上天的礼物——八斤半大胖小子一个，谢谢所有人的赞同，希望能继续给长期异地的情侣一些希望。\n————————\n\n\n异地恋不分手的原因是爱的是对方，不是谈恋爱的感觉。\n\n竟然有这么多赞同了，谢谢大家！\n\n明天就要正式结束异地，正式生活在一起了，回头看九年来的风风雨雨，虽然绝大部分时间我们相隔千里，但对彼此的信赖让我们从未感觉孤单。\n\n其实答案这句话是他说的，我觉得确实能代表我们相爱至今的原因，当我每一次问自己，我爱的究竟是什么？得到的答案永远不是外在的一切，甚至不是他的爱和陪伴，永远是他纯然的心灵。",
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "voteupCount": 1456,
+        "thumbnail": null
+      },
+      "98384596": {
+        "relationship": {
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false,
+          "upvotedFolloweeIds": []
+        },
+        "markInfos": [],
+        "excerpt": "由于小时候的一项特殊经历，导致我在学习、工作、生活上对于效率的追求，达到了近乎偏执的程度。 简而言之，我是在赌场的环境中完成重点小学、重点初高中的学业，考上了一所上海985的。 当时我家里就是一个不折不扣的赌场。每到晚上和周末，父母都会在客厅里摆…",
+        "type": "answer",
+        "createdTime": 1462112997,
+        "previewType": "default",
+        "id": 98384596,
+        "isCopyable": false,
+        "author": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "偷窥者",
+          "url": "https://api.zhihu.com/people/f6a353b9e4c98be0ea5a3470d891542c",
+          "urlToken": "ji-feng-fei-ying",
+          "userType": "people",
+          "headline": "黄白小猫",
+          "avatarUrl": "https://pic2.zhimg.com/50/v2-18c0ca629e03943352ff32405f31c0c9_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 1,
+          "type": "people",
+          "id": "f6a353b9e4c98be0ea5a3470d891542c"
+        },
+        "url": "https://api.zhihu.com/answers/98384596",
+        "commentPermission": "all",
+        "question": {
+          "author": {
+            "isFollowed": false,
+            "badge": [],
+            "name": "Charles",
+            "url": "https://api.zhihu.com/people/9e334f4c858ec34786d09e31f7302833",
+            "urlToken": "zhumengyao",
+            "userType": "people",
+            "headline": "",
+            "avatarUrl": "https://pic1.zhimg.com/50/44fa306503b5c58430d61a03864b63c8_s.jpg",
+            "isFollowing": false,
+            "isOrg": false,
+            "gender": 1,
+            "type": "people",
+            "id": "9e334f4c858ec34786d09e31f7302833"
+          },
+          "created": 1415621197,
+          "url": "https://api.zhihu.com/questions/26560512",
+          "title": "学霸们是如何高效率地学习、工作、生活的？",
+          "answerCount": 322,
+          "boundTopicIds": [
+            119,
+            1575,
+            3265,
+            5361,
+            35034
+          ],
+          "commentCount": 25,
+          "isFollowing": false,
+          "followerCount": 99611,
+          "type": "question",
+          "id": 26560512
+        },
+        "updatedTime": 1462180973,
+        "content": "由于小时候的一项特殊经历，导致我在学习、工作、生活上对于效率的追求，达到了近乎偏执的程度。<br><br><b>简而言之，我是在赌场的环境中完成重点小学、重点初高中的学业，考上了一所上海985的。</b><br><br>当时我家里就是一个不折不扣的赌场。每到晚上和周末，父母都会在客厅里摆上两桌麻将。吆喝声，麻将牌稀里哗啦声，笑骂声，争吵声，不绝于耳。<br><br>而当时我们的老式房屋里，我是没有单独卧室的，只能在阳台上学习，完全没有隔音设施。于是我不得不面对这样一个事实：不论是要背诵语文英语历史，还是钻研数学物理化学，我都只能在这样历史级别的噪音中竭尽所能的集中精力，以图不受其滋扰。<br><br>那时候麻将桌上都铺着一块布。我无数次想过，以至于无数次在梦中梦到，把这块布猛的扯下来，让他们无牌可搓。<br><br>如果换了别人，可能已经自暴自弃。但由于从小有着极强好胜心，加上重点学校的压力，我只能奋然前行。<br><br>最后，我练成了以下技能：<br><br>1. 在每局麻将进行过程中（噪声相对较小时期）以最快速度解出数理化题目，或者背出一段课文。这样在之后的换局喧闹声中，便可以完成相对机械的作业。这其实就是优选统筹法。<br><br>2. 排除一切其他因素的干扰。由于麻将的存在已经是极大的障碍，我的体系里不能容忍再追加任何其他干扰。所以就养成了在复习功课时候不做一切小动作、不开一切小差的习惯。其实我那个年代没有手机还好。在现在有手机的时代，我真难想象学生们是如何在做功课的时候能够完全屏蔽手机的诱惑的。<br><br>3.长时间保持注意力高度集中的习惯。<b>这种能力练到第九层以后，我终于达到了物我两忘的境界，叫声骂声麻将声，声声不入耳。</b>这种逆天能力带来的副作用，是我之后进入大学开始在图书馆看书的时候，由于实在忍受不了图书馆的静寂无声，以至于我大学七年里除了期末复习在图书馆看书的时间屈指可数（一般在寝室里，室友们打牌声玩游戏声的喧闹中看书）。<br><br>以上技能，自然会给学习和考试带来莫大好处，此处按下不表。<b>然而我没有想到的是，这些技能居然也对我的工作产生了极大的助力。</b><br><br>上周和客户开完会，吃饭的时候客户连连赞叹：“我从来没有见过能像你这样高效工作的！” “谢谢。”对此我已经麻木，毕竟这样的话听得太多了。<br><br>我一天的工作节奏一般是这样。如果事情比较多，那么我会从早上进办公室坐下一刻开始，一直到下班离去，当中全过程高度集中注意力。只有午饭时候机械化的出去吃半小时饭。<b>只有这样我才可以避免长时间的加班，回到家还能带带孩子追追番弹弹琴。</b><br><br>而如果是同样的工作量，换了一个低效的人一般会怎样呢？早上来到办公室，坐下，泡杯咖啡，打开网页，浏览一下新闻。然后慢慢悠悠的处理邮件，等邮件差不多处理完上午也结束了。然后出去吃饭，吃完饭街上逛逛。下午回到办公室，开始处理较难的事务，当中顺便玩玩手机，聊聊微信，接个电话，打个电话，泡杯咖啡，泡杯下午茶，吃个甜点。然后发现事情处理不完，出去吃个晚饭，再逛逛。最后披星戴月的半夜回家，对人号称：“我们单位很忙的，每天加班到半夜。“<br><br><b>所谓高效，除了使用必要的优选统筹方法之外，更多的只是很简单的高度集中注意力，避免一切干扰而已。</b>",
+        "commentCount": 269,
+        "reshipmentSettings": "allowed",
+        "thanksCount": 1110,
+        "excerptNew": "由于小时候的一项特殊经历，导致我在学习、工作、生活上对于效率的追求，达到了近乎偏执的程度。 简而言之，我是在赌场的环境中完成重点小学、重点初高中的学业，考上了一所上海985的。 当时我家里就是一个不折不扣的赌场。每到晚上和周末，父母都会在客厅里摆…",
+        "previewText": "",
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "voteupCount": 3036,
+        "thumbnail": null
+      },
+      "156825979": {
+        "relationship": {
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false,
+          "upvotedFolloweeIds": []
+        },
+        "markInfos": [],
+        "excerpt": "很多答主从不同角度给出了人生经验的参考，我们就来分享一个关于亲密关系中“安全感”的定义吧。 我们的各种后台也经常收到类似这样的留言：“我明明从未背叛过ta，为什么ta总说没有安全感？”也有人为自己无法拥有安全感而难过：“我也不知道为什么，我爱ta但…",
+        "type": "answer",
+        "createdTime": 1491990360,
+        "previewType": "default",
+        "id": 156825979,
+        "isCopyable": true,
+        "author": {
+          "isFollowed": false,
+          "badge": [
+            {
+              "topics": [
+                {
+                  "name": "心理学",
+                  "url": "https://api.zhihu.com/topics/19551432",
+                  "excerpt": "心理学 （Psychology） 是一门学科（注意与话题「心理」作区别），是研究人和动物心理现象发生、发展和活动规律的一门科学。心理学研究动物的心理（研究动物心理主要是为了深层次地了解、预测人的心理的发生、发展的规律），但主要研究人的心理。简单地说，心理学是研究人类行为和心理过程的一门科学。",
+                  "introduction": "心理学 （Psychology） 是<b>一门学科（注意与话题「心理」作区别）</b>，是研究人和动物心理现象发生、发展和活动规律的一门科学。心理学研究动物的心理（研究动物心理主要是为了深层次地了解、预测人的心理的发生、发展的规律），但主要研究人的心理。简单地说，心理学是研究人类行为和心理过程的一门科学。",
+                  "avatarUrl": "https://pic2.zhimg.com/50/7a579133e50fc9125ff7cda05249fcf1_s.jpg",
+                  "type": "topic",
+                  "id": "19551432"
+                }
+              ],
+              "type": "best_answerer",
+              "description": "优秀回答者"
+            }
+          ],
+          "name": "KnowYourself",
+          "url": "https://api.zhihu.com/people/14f1982ee9fd4e9579b918b4676b8b44",
+          "urlToken": "knowyourself-1",
+          "userType": "organization",
+          "headline": "宇宙中最酷的心理学社区：人人都能看懂，但只有一部分人才会喜欢",
+          "avatarUrl": "https://pic1.zhimg.com/50/v2-ff15524790f8c437b13dd9761430fe14_s.jpg",
+          "isFollowing": false,
+          "isOrg": true,
+          "gender": 1,
+          "type": "people",
+          "id": "14f1982ee9fd4e9579b918b4676b8b44"
+        },
+        "url": "https://api.zhihu.com/answers/156825979",
+        "commentPermission": "all",
+        "question": {
+          "author": {
+            "isFollowed": false,
+            "badge": [],
+            "name": "我只是一只大土鳖",
+            "url": "https://api.zhihu.com/people/319cd2515ba5c4e229839e65d4d81772",
+            "urlToken": "yang-hu-zi-90",
+            "userType": "people",
+            "headline": "我自己创造幸福，因为我总能说服自己。",
+            "avatarUrl": "https://pic3.zhimg.com/50/6c5dff136_s.jpg",
+            "isFollowing": false,
+            "isOrg": false,
+            "gender": 1,
+            "type": "people",
+            "id": "319cd2515ba5c4e229839e65d4d81772"
+          },
+          "created": 1401191341,
+          "url": "https://api.zhihu.com/questions/23932312",
+          "title": "安全感对女性意味着什么？",
+          "answerCount": 1271,
+          "boundTopicIds": [
+            404,
+            3946,
+            8808,
+            20818,
+            26138
+          ],
+          "commentCount": 28,
+          "isFollowing": false,
+          "followerCount": 13974,
+          "type": "question",
+          "id": 23932312
+        },
+        "updatedTime": 1491990360,
+        "content": "<p>很多答主从不同角度给出了人生经验的参考，我们就来分享一个关于亲密关系中“安全感”的定义吧。</p><p>我们的各种后台也经常收到类似这样的留言：“我明明从未背叛过ta，为什么ta总说没有安全感？”也有人为自己无法拥有安全感而难过：“我也不知道为什么，我爱ta但是却无法信任ta。”他们说出了获得情绪上的“安全感”中最重要的部分－－信任。</p><p>或者换句话说，在一段亲密关系中，人们总会经历一些脆弱又不确定的时刻，<b>是信任给予人们足够的能力，去超越对伴侣的怀疑，获得安全感，让关系得以持续</b>(Sorrentino et al., 1995)。</p><br><blockquote>构筑安全感的信任，包含三个层次</blockquote><p>心理学家John Rempel等人(1985)对亲密关系中的信任进行了总结：亲密关系中的信任是一种<b>对伴侣的主观信心感受</b>。</p><p>Rempel等人认为，亲密关系中的信任包含了<b>三个要素</b>：<b>a. 可预测（predictability）, b. 可依赖（dependability）和 c.信念（faith）。</b></p><p>a. <b>“可预测”意味着基于伴侣过去行为的规律，我们相信自己可以对伴侣作出准确的预判。</b>例如，经过一段时间的相处，我们能知道当我们犯错时，伴侣是会大发雷霆、还是会温和地解决问题。</p><p>b.<b>“可依赖”意味着我们相信，伴侣有被我们依赖的能力和意愿</b>：Ta不单有能力提供支持，也愿意支持我们。这里的能力不单单指伴侣拥有的技能，也包含伴侣本身的生理、精神状态，例如，如果你的伴侣酗酒，可能你会认为Ta是“靠不住”的。</p><p>第三个要素是信念，c. <b>信念意味着,即使在没有充分的事实作为根据的情况下，我们仍然相信对方会继续爱我们、关心我们。研究者提出，我们在亲密关系中体会到的信念感，与人们在宗教中对神的信念感，是类似的。</b>在“可预测”和“可依赖”这两种信任中，人们对于是否相信伴侣还会经过一个头脑中的判断过程，可能从过去的经验中总结出一些证据。但<b>当信念发生时，我们对伴侣的信任不再需要任何理由。</b></p><p>在一段理想的亲密关系中，会同时具备可预测、可依赖与信念三种信任的要素。然而在现实里，不是所有人都会拥有三要素，例如很多人缺乏了对伴侣的信念（Rempel et al., 1985）。</p><p><b>可预测型信任是信任的起点。而我们判断的依据是伴侣过去行为的一致性</b>（consistency）。如果伴侣的行为时而稳定、时而变化多端，我们就很难对Ta进行准确的预判；或者“Ta变化多端”本身会成为预判，而<b>这种预判会直接终止信任的发展。</b></p><p><b>而当我们冒着可能被对方拒绝的风险，向对方暴露出自己脆弱的部分（比如向对方求助、倾诉等等），并得到了他们正向的回应和支持</b>，这时可依赖型信任就会发生。</p><p>而Holmes和Rempel(1985)指出，要产生信念，必须要满足一个条件：<b>我们主观上能够认为，伴侣之所以对我们好，是因为他们真诚地爱着我们，而不是因为伴侣这么做有利于他们自己。同时，也需要我们相信伴侣对我们的爱是独特的，相信伴侣不会用同样的方式去爱每一个人。</b></p><p>由于信念是对伴侣情感的信任，心理学家认为<b>拥有信念会给人们提供情绪上的安全感（emotional safety）。</b></p><p>换句话说，亲密关系中的安全感意味着什么呢？它意味着，你感受到对方的行为状态是稳定、可预测的，可依赖的，除了这些构筑的基础信任，更重要的是，你对你们之间的爱保持着信念。</p><br><blockquote><b>那我们要如何提升在关系中的安全感？</b></blockquote><p><b>1. 和伴侣讨论如何提升Ta的信任感</b></p><p>和伴侣坦诚地讨论提升对方信任感的方法，比如询问对方：“我做什么可以让你更相信我？”<b>如果你感到你做不到伴侣提出的标准，你需要坦诚地说“不”。</b>不要为了讨好伴侣而答应自己做不到的事、让对方产生虚假期望；不然一旦你在将来达不到伴侣提出的这个要求，伴侣会因此感到你不可靠，反而降低了对你的信任。</p><p><b>2. 如果你撒了谎并被伴侣被戳穿，承认你撒了谎</b></p><p><b>如果你撒了谎而且被伴侣戳穿，你要立刻承认你撒了谎，不要过多抵赖。</b>我们都有可能在生活中撒谎，但如果一味抵赖，伴侣可能会认为你做不到对Ta诚实，于是减少了对你的信任。<b>在承认撒谎后，你需要真诚地道歉，并需要解释自己说谎时的动机与考量，</b>让伴侣明白你是个总体可靠的人、不会无缘无故地撒谎。</p><p><b>3. 在日常生活中保持言行一致</b></p><p>即使一件事微不足道（比如“明天提早下班”），一旦你答应了伴侣，就要尽量做到。<b>如果你发现自己无法兑现承诺，要提前告知伴侣</b>，而不是直接爽约、出尔反尔。信任是在一个一个实现诺言的瞬间逐渐积累起来的。</p><p><b>4. 在伴侣对你进行自我暴露时，倾听并作出回应</b></p><p>当伴侣对你倾诉一些个人的感受与想法时，要给出“我在认真倾听”的信号，包括语言信号（例如，及时的语言回应、复述对方说过的话、就对方说的内容进行提问等等）和非语言信号（例如点头、表情的变化等）。这样，伴侣会渐渐相信“如果我对你展现真实的一面，你也会对我作出尊重、善意的回应”，于是更敢于对你坦诚。</p><p><b>5. 为伴侣保守秘密</b></p><p><b>伴侣在私下里告诉你的、关于Ta个人的事，你要为伴侣保密，不要随意地告诉他人，</b>就算那个人是你们的共同好友也不行。在公开场合中，除非你的伴侣主动向别人提起关于Ta自己的事，不然你不要提起伴侣的私事。另外，<b>即使伴侣在一些场合中、对一些人分享了Ta的个人信息，也不代表伴侣愿意与所有人分享。</b>所以稳妥的做法是，不要随意和其他人谈论你伴侣的私事。否则伴侣不敢相信你会为Ta保守秘密，于是只好选择对你隐瞒一些事。</p><p>事实上，不是只有在一些重大、关键的事件才能培养伴侣对我们的信任；恰恰是在日常生活中无数个微小的时刻，通过表现出我们的可靠和善意，让伴侣产生信任感。这一个个瞬间，最终会积累起我们对彼此的信念。很多人对他人的无法信任，归根结底是无法相信自己。</p><p><b>愿你能体会到相信，选择相信，从而在瞬息万变的生活里找到真正的安全感。</b></p><p>以上。</p><p>原文发表于 <a href=\"http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI1OTAwNDc1OA%3D%3D%26mid%3D2652833821%26idx%3D1%26sn%3D73c1eaf835773ab6d88f088ce814cb77%26chksm%3Df1942824c6e3a13224f649919e3b69b4d7f1dc670d5ba9c60327ca8f59d1889400a4c03cc595%26mpshare%3D1%26scene%3D1%26srcid%3D0412zxjqMeycS41CSW8TWwRT%26key%3D42821cf5cca89f7fa2ef1f877d097efadb46b1596951cb1e90d6ad229b5a27a6661f35475e864c7b7cd082c4819b7eb40b75a3ebb3950797829700e612b1c7b6e6e02dd1bd128306fa1176fc6221ed6b%26ascene%3D0%26uin%3DNDg0OTUzNzc1%26devicetype%3DiMac%2BMacBookAir6%252C1%2BOSX%2BOSX%2B10.11.6%2Bbuild%2815G1421%29%26version%3D12010210%26nettype%3DWIFI%26fontScale%3D100%26pass_ticket%3DbcSQ%252BAIVQxXbWG17YQo4LAPI%252FvLD58i5MoCy8yGIACQ7ubPWWO0vgXda4VMbwObr\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为什么有时，信任比爱还难？｜如何建立一段健康信任的关系<i class=\"icon-external\"></i></a></p><p>了解更多与心理相关的知识、研究、话题互动、人物访谈等等，欢迎关注<a href=\"https://www.zhihu.com/org/knowyourself-1/activities\" class=\"internal\">KnowYourself - 知乎</a></p><p><i>宇宙中最酷的心理学社区，人人都能看懂，但只有一部分人才会喜欢。</i></p>",
+        "commentCount": 34,
+        "reshipmentSettings": "disallowed",
+        "thanksCount": 143,
+        "excerptNew": "很多答主从不同角度给出了人生经验的参考，我们就来分享一个关于亲密关系中“安全感”的定义吧。 我们的各种后台也经常收到类似这样的留言：“我明明从未背叛过ta，为什么ta总说没有安全感？”也有人为自己无法拥有安全感而难过：“我也不知道为什么，我爱ta但…",
+        "previewText": "",
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "voteupCount": 406,
+        "thumbnail": null
+      },
+      "170041734": {
+        "relationship": {
+          "voting": 0,
+          "isThanked": false,
+          "isNothelp": false,
+          "upvotedFolloweeIds": []
+        },
+        "markInfos": [],
+        "excerpt": "一个入行不到两年的一线员工用血淋淋的教训告诉你。请珍爱生命，远离银行！！！ 你以为来了银行就从此衣食无忧迈上人生巅峰了？真是太天真！！！ 先做简单自我介绍，我目前就职于某沿海城市的一家国有银行，前年7月签了5年的卖身契。 咱们先来谈大家最最最关心…",
+        "type": "answer",
+        "createdTime": 1494895147,
+        "previewType": "default",
+        "id": 170041734,
+        "isCopyable": false,
+        "author": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "苏幕遮",
+          "url": "https://api.zhihu.com/people/0908731206671dd7e2362167e04d24a7",
+          "urlToken": "su-mu-zhe-71-12",
+          "userType": "people",
+          "headline": "合格的负能量传播者",
+          "avatarUrl": "https://pic2.zhimg.com/50/10e4be42683d02f1c3b7f4074f5f9109_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 0,
+          "type": "people",
+          "id": "0908731206671dd7e2362167e04d24a7"
+        },
+        "url": "https://api.zhihu.com/answers/170041734",
+        "commentPermission": "all",
+        "question": {
+          "author": {
+            "isFollowed": false,
+            "badge": [],
+            "name": "刘泊汐",
+            "url": "https://api.zhihu.com/people/13d7487dc7197b2e1cc7cd8fc1febdc9",
+            "urlToken": "liu-bo-xi-16",
+            "userType": "people",
+            "headline": "",
+            "avatarUrl": "https://pic3.zhimg.com/50/c2c207dee_s.jpg",
+            "isFollowing": false,
+            "isOrg": false,
+            "gender": 1,
+            "type": "people",
+            "id": "13d7487dc7197b2e1cc7cd8fc1febdc9"
+          },
+          "created": 1406898202,
+          "url": "https://api.zhihu.com/questions/24699538",
+          "title": "在银行工作是怎样一番体验？",
+          "answerCount": 745,
+          "boundTopicIds": [
+            1826,
+            12585,
+            13306,
+            19800,
+            88985
+          ],
+          "commentCount": 7,
+          "isFollowing": false,
+          "followerCount": 11866,
+          "type": "question",
+          "id": 24699538
+        },
+        "updatedTime": 1495035458,
+        "content": "一个入行不到两年的一线员工用血淋淋的教训告诉你。请珍爱生命，远离银行！！！<br>你以为来了银行就从此衣食无忧迈上人生巅峰了？真是太天真！！！<br>先做简单自我介绍，我目前就职于某沿海城市的一家国有银行，前年7月签了5年的卖身契。<br><br>咱们先来谈大家最最最关心的薪酬问题。<br>许多关于银行薪酬的这类新闻，都说银行员工的平均年收入都是几十万呀，四大行的收入排名最差也在10W+呀。这给各位行外人带来了极大误导。我在没工作前也这么想的。反正我朋友都觉得我就是个年收入肯定破了10W的小富婆。现实总是残忍。我这个月拿到手的工资两千刚出头，一同事五险一金一扣，只发了九百多。说出来连我都不信。可事实就是这样。在一个经济发达的沿海城市，我们这点工资，交个房租基本就所剩无几了。近几年贷款不良爆发，经济发达地方更严重。那些平均年薪几十万的新闻，只是以同一银行在全国的所有薪酬作为基数来计算的。银行的中高层当然不会受啥影响，照样能拿到一年好几十万的薪酬。至于基层的员工，就等着喝风吃土吧。<br><br>接下来再聊聊员工福利，以及社会地位。<br>会有不少人说了，再怎么也是在银行，你们工资发的少，但福利高呀。福利我真的从来没见到过，听入行好多年的同事说了，我们行在员工福利这块一直在走下坡路。就拿一个我亲身经历来说吧。单位有员工餐厅，总行给每个员工一个月不到五百块的伙食补助，一个季度结算一次，没花完的会补发给大家。但我们行现在擅自连这部分钱也给我们扣啦。其实只要工资足够高，谁还在乎这些五险一金。国家去年下调了单位缴纳的住房公积金比例后，我们单位第一个就积极响应了。况且现在工资基数这么低，五险一金一个月其实根本存不下多少钱。<br>至于社会地位，一线员工要什么社会地位。成天张口闭口营销营销，把自己形容成是坐在银行柜台里的销售员一点不为过。行里的领导都不在乎你更别提各种奇葩客户了。在一线工作，每天不但要完成上级分配给我们的各项任务指标，应付分行的各种检查，而且还要保持最好状态服务客户。迎接手势做的不规范，扣分。服务用语说的不到位，扣分。凭证整理的有问题扣分扣钱。库里短款了，自认倒霉自己贴钱。多了钱呢还是不行。你以为网点的360度无死角高清监控是看客户的？那你就大错特错了，那是用来监督内部员工的。动不动就下发个监控抽查结果。前段时间我工作网点的一老同志因为抽查结果不太好被扣了很多分，心理压力太大直接住院了。而且常有奇葩客户打电话投诉。有一次一个卖炸串的女的进来存一万，拿着一堆透着孜然味的零钱。我点了好几遍就是不到一万，她说让我把钱给她，如果她点的够了一万就要投诉我。结果我还没来得及给她递出去，她就发现确实有几张钱落在了包里。<br><br>最后说说工作前景吧。许多跟我一起进来的，毕业于重点大学的硕士研究生，现在依旧在一线网点干初中生学俩月也能完全掌握的活。要想通过自身努力，转岗升职基本是痴心妄想。最好的也无非就是转个客户经理，经常维护客户，各种应酬喝酒。什么每个人都有机会通过行内竞聘考试升职，都是入坑前分行人力部给你画的饼。事实却是你想脱离一线进后台部门都很困难。除非你有个有钱或者有权的爹，不然就等着在一线任人宰割吧。在一线工作呢，你基本是学不到什么可以提升知识技能的东西的。在网点倒是可以培养你的奴性，对，就是奴性。不论是对客户的还是对单位的。除非在是在分行或者总行，不然真的什么也学不到。当然确实不乏有通过自己努力一路晋升的。但那几率真的很小很小。<br>分行领导说近几年已经走了很多大学生。我们单位的许多年轻人现在几乎都在备战各种公考。要不是基本都已拖家带口，我觉得今年辞职的只会更多。自从这个月的工资发完，我就有点焦虑症倾向了。现在就是熬，等着合约期满，立刻撤。因为我没钱付违约金呀。<br><br>要说工作不到两年到底收获了什么，也就只能是这一身的肥肉了。<br>实体金融已经整体在走下坡路了。办业务逐步都在实现科技化。如果真能单位裁员把我们裁了，我想我晚上睡觉做梦都会开心的笑出声来。<br>--------------------------分割线-----------<br>评论里那些说我是定向或是派遣的同学，我可以很明确的一并回答了你们，我正儿八经的校园招聘。至于为什么是五年，我也不知道。合同要是三年的话，我现在就会很开心，可能不至于上来写这么长的回答。<br>中部地区不良少，南方经济发达。人家绩效高是我们这个地区行里同事都知道的事。<br><br>对于年轻人来讲薪酬回报其实是最不重要的。工作前景以及对于自身价值的认可，随便哪个拎出来都比薪酬带给自己的满意度高很多。毕竟现在很多差不多的企业工资会随着你技能的提升而提高。真正让人绝望的是一眼就能看到底的未来。我是真心佩服那些在一线坚持了几十年的老同事。<br>我只是把银行最真实的一面说出来，信不信随你。",
+        "commentCount": 291,
+        "reshipmentSettings": "allowed",
+        "thanksCount": 68,
+        "excerptNew": "一个入行不到两年的一线员工用血淋淋的教训告诉你。请珍爱生命，远离银行！！！ 你以为来了银行就从此衣食无忧迈上人生巅峰了？真是太天真！！！ 先做简单自我介绍，我目前就职于某沿海城市的一家国有银行，前年7月签了5年的卖身契。 咱们先来谈大家最最最关心…",
+        "previewText": "",
+        "canComment": {
+          "status": true,
+          "reason": ""
+        },
+        "voteupCount": 210,
+        "thumbnail": null
+      }
+    },
+    "articles": {},
+    "columns": {},
+    "topics": {},
+    "roundtables": {},
+    "favlists": {},
+    "comments": {},
+    "notifications": {},
+    "ebooks": {},
+    "activities": {
+      "1494936893": {
+        "verb": "ANSWER_VOTE_UP",
+        "target": {
+          "id": 170041734,
+          "schema": "answer"
+        },
+        "actor": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "明日香哈哈",
+          "url": "https://api.zhihu.com/people/75b9caf5341897f44623ed251a2e7e51",
+          "urlToken": "wei-jing-ji-44",
+          "userType": "people",
+          "headline": "化学转IT",
+          "avatarUrl": "https://pic1.zhimg.com/50/9f48cf85e64967ff852fb891b09b3948_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 0,
+          "type": "people",
+          "id": "75b9caf5341897f44623ed251a2e7e51"
+        },
+        "actionText": "赞同了回答",
+        "createdTime": 1494936893,
+        "type": "feed",
+        "id": "1494936893"
+      },
+      "1494937102": {
+        "verb": "QUESTION_FOLLOW",
+        "target": {
+          "id": 37093377,
+          "schema": "question"
+        },
+        "actor": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "明日香哈哈",
+          "url": "https://api.zhihu.com/people/75b9caf5341897f44623ed251a2e7e51",
+          "urlToken": "wei-jing-ji-44",
+          "userType": "people",
+          "headline": "化学转IT",
+          "avatarUrl": "https://pic1.zhimg.com/50/9f48cf85e64967ff852fb891b09b3948_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 0,
+          "type": "people",
+          "id": "75b9caf5341897f44623ed251a2e7e51"
+        },
+        "actionText": "关注了问题",
+        "createdTime": 1494937102,
+        "type": "feed",
+        "id": "1494937102"
+      },
+      "1494942800": {
+        "verb": "ANSWER_VOTE_UP",
+        "target": {
+          "id": 156825979,
+          "schema": "answer"
+        },
+        "actor": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "明日香哈哈",
+          "url": "https://api.zhihu.com/people/75b9caf5341897f44623ed251a2e7e51",
+          "urlToken": "wei-jing-ji-44",
+          "userType": "people",
+          "headline": "化学转IT",
+          "avatarUrl": "https://pic1.zhimg.com/50/9f48cf85e64967ff852fb891b09b3948_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 0,
+          "type": "people",
+          "id": "75b9caf5341897f44623ed251a2e7e51"
+        },
+        "actionText": "赞同了回答",
+        "createdTime": 1494942800,
+        "type": "feed",
+        "id": "1494942800"
+      },
+      "1494977370": {
+        "verb": "ANSWER_VOTE_UP",
+        "target": {
+          "id": 17110037,
+          "schema": "answer"
+        },
+        "actor": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "明日香哈哈",
+          "url": "https://api.zhihu.com/people/75b9caf5341897f44623ed251a2e7e51",
+          "urlToken": "wei-jing-ji-44",
+          "userType": "people",
+          "headline": "化学转IT",
+          "avatarUrl": "https://pic1.zhimg.com/50/9f48cf85e64967ff852fb891b09b3948_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 0,
+          "type": "people",
+          "id": "75b9caf5341897f44623ed251a2e7e51"
+        },
+        "actionText": "赞同了回答",
+        "createdTime": 1494977370,
+        "type": "feed",
+        "id": "1494977370"
+      },
+      "1495097451": {
+        "verb": "ANSWER_VOTE_UP",
+        "target": {
+          "id": 98384596,
+          "schema": "answer"
+        },
+        "actor": {
+          "isFollowed": false,
+          "badge": [],
+          "name": "明日香哈哈",
+          "url": "https://api.zhihu.com/people/75b9caf5341897f44623ed251a2e7e51",
+          "urlToken": "wei-jing-ji-44",
+          "userType": "people",
+          "headline": "化学转IT",
+          "avatarUrl": "https://pic1.zhimg.com/50/9f48cf85e64967ff852fb891b09b3948_s.jpg",
+          "isFollowing": false,
+          "isOrg": false,
+          "gender": 0,
+          "type": "people",
+          "id": "75b9caf5341897f44623ed251a2e7e51"
+        },
+        "actionText": "赞同了回答",
+        "createdTime": 1495097451,
+        "type": "feed",
+        "id": "1495097451"
+      }
+    },
+    "feeds": {}
+  },
+  "currentUser": "",
+  "token": {
+    "xUDID": "ABBC0xsDxwuPTuv8kyrNHWn5q8zS_x6u1mg="
+  },
+  "account": {
+    "locakTicketStatus": false,
+    "challenge": [],
+    "errorStatus": false,
+    "message": "",
+    "isFetching": false
+  },
+  "settings": {
+    "experiment": {
+      "ge3": "ge3_9",
+      "ge2": "ge2_1",
+      "homeNweb": "default",
+      "favAct": "default",
+      "default": "None",
+      "newMore": "new",
+      "ge20": "ge20_2",
+      "qaStickySidebar": "sticky_sidebar",
+      "liveStore": "ls_a2_b1_c1_f1",
+      "zcmLighting": "zcm",
+      "ge19": "ge19_3"
+    }
+  },
+  "notification": {},
+  "cookie": "",
+  "userAgent": {
+    "Edge": false,
+    "Wechat": false,
+    "Weibo": false,
+    "QQ": false,
+    "Mobile": false,
+    "Android": false,
+    "iOS": false,
+    "isAppleDevice": false,
+    "Zhihu": false,
+    "isWebView": false
+  },
+  "pushNotifications": {
+    "default": {
+      "isFetching": false,
+      "isDrained": false,
+      "ids": []
+    },
+    "follow": {
+      "isFetching": false,
+      "isDrained": false,
+      "ids": []
+    },
+    "vote-thank": {
+      "isFetching": false,
+      "isDrained": false,
+      "ids": []
+    },
+    "currentTab": "default",
+    "notificationsCount": {
+      "default": 0,
+      "follow": 0,
+      "vote-thank": 0
+    }
+  },
+  "messages": {
+    "data": {},
+    "currentTab": "common",
+    "messageCount": 0
+  },
+  "register": {
+    "registerValidateSucceeded": null,
+    "registerValidateErrors": {},
+    "registerConfirmError": null,
+    "sendDigitsError": null,
+    "registerConfirmSucceeded": null
+  },
+  "login": {
+    "loginConfirmError": null,
+    "sendDigitsError": null,
+    "loginConfirmSucceeded": null
+  },
+  "active": {
+    "sendDigitsError": null,
+    "activeConfirmSucceeded": null,
+    "activeConfirmError": null
+  },
+  "people": {
+    "isFetching": false,
+    "activitiesByUser": {
+      "wei-jing-ji-44": {
+        "isFetching": false,
+        "isDrained": false,
+        "ids": [
+          "1495097451",
+          "1494977370",
+          "1494942800",
+          "1494937102",
+          "1494936893"
+        ],
+        "newIds": [
+          "1495097451",
+          "1494977370",
+          "1494942800",
+          "1494937102",
+          "1494936893"
+        ],
+        "previous": "http://www.zhihu.com/api/v4/members/wei-jing-ji-44/activities?before_id=1495097451&limit=20&desktop=True",
+        "next": "http://www.zhihu.com/api/v4/members/wei-jing-ji-44/activities?limit=20&after_id=1494936893&desktop=True"
+      }
+    },
+    "answersByUser": {},
+    "answersSortByVotesByUser": {},
+    "answersMarkedByUser": {},
+    "votedAnswersByUser": {},
+    "thankedAnswersByUser": {},
+    "voteAnswersByUser": {},
+    "thankAnswersByUser": {},
+    "topicAnswersByUser": {},
+    "articlesByUser": {},
+    "articlesSortByVotesByUser": {},
+    "pinsByUser": {},
+    "questionsByUser": {},
+    "commercialQuestionsByUser": {},
+    "favlistsByUser": {},
+    "followingByUser": {},
+    "followersByUser": {},
+    "mutualsByUser": {},
+    "followingColumnsByUser": {},
+    "followingQuestionsByUser": {},
+    "followingFavlistsByUser": {},
+    "followingTopicsByUser": {},
+    "publicationsByUser": {},
+    "columnsByUser": {},
+    "allFavlistsByUser": {}
+  },
+  "question": {
+    "followers": {},
+    "concernedFollowers": {},
+    "answers": {},
+    "createdAnswers": {},
+    "collapsedAnswers": {},
+    "notificationAnswers": {},
+    "invitationCandidates": {},
+    "inviters": {},
+    "invitees": {},
+    "similarQuestions": {},
+    "relatedLives": {},
+    "bio": {},
+    "brand": {}
+  },
+  "comments": {
+    "pagination": {},
+    "reverse": {},
+    "reviewing": {},
+    "conversation": {},
+    "parent": {}
+  },
+  "shareTexts": {},
+  "answers": {
+    "voters": {},
+    "copyrightApplicants": {},
+    "favlists": {}
+  },
+  "banner": {},
+  "topics": {
+    "bios": {}
+  },
+  "captcha": {
+    "captchaNeeded": false,
+    "captchaBase64String": null,
+    "captchaValidationMessage": null,
+    "loginCaptchaExpires": false
+  },
+  "sms": {
+    "supportedCountries": []
+  },
+  "explore": {
+    "recommendations": {}
+  },
+  "articles": {
+    "voters": {}
+  },
+  "favlists": {
+    "relations": {}
+  },
+  "pins": {
+    "voters": {}
+  },
+  "topstory": {
+    "topstorys": {
+      "isFetching": false,
+      "isDrained": false,
+      "afterId": 0,
+      "items": [],
+      "next": null
+    },
+    "sidebar": {
+      "isFetching": false
+    }
+  },
+  "upload": {},
+  "video": {
+    "data": {}
+  },
+  "guide": {
+    "guide": {
+      "isFetching": false,
+      "isShowGuide": false
+    }
+  },
+  "switches": {}
+}
